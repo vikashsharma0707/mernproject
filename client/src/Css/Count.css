@@ -1,0 +1,62 @@
+.dashboard{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    margin-right: 80px;
+}
+
+
+#row1{
+    border: 2px solid black;
+    width: 250px;
+    height: 100px;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
+    
+  }
+
+
+
+  .count-card{
+    border: 2px solid black;
+    width: 250px;
+    height: 100px;
+    margin: auto;
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: #d50a4f;
+  }
+
+  .count-card h2{
+    font-size: 24px;
+  }
+
+  #row1{
+    background-color: #FE9496;
+  }
+  
+  #row2{
+    background-color: #4BCBEB;
+  }
+  
+  #row3{
+    background-color: #4BCFB4;
+  }
+  
+  #row4{
+    background-color: #574476;
+  }

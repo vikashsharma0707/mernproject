@@ -1,0 +1,182 @@
+/* Overall Table Styling */
+.table {
+  margin-top: 20px;
+  width: 50%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+  text-align: center;
+  padding: 12px 15px;
+}
+
+.table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.table tbody tr {
+  background-color: #f9f9f9;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+/* Pagination Styling */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #45a049;
+}
+
+/* Buttons Styling */
+button, .btn {
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  transform: scale(1.05);
+}
+
+button:focus, .btn:focus {
+  outline: none;
+}
+
+/* View/Update Buttons */
+button.view-btn {
+  background-color: #5bc0de;
+  color: white;
+}
+
+button.view-btn:hover {
+  background-color: #31b0d5;
+}
+
+button.update-btn {
+  background-color: #337ab7;
+  color: white;
+}
+
+button.update-btn:hover {
+  background-color: #286090;
+}
+
+button.delete-btn {
+  background-color: #d9534f;
+  color: white;
+}
+
+button.delete-btn:hover {
+  background-color: #c9302c;
+}
+
+/* Status Change Button */
+button.status-btn {
+  padding: 8px 12px;
+  color: white;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button.status-btn.complete {
+  background-color: green;
+}
+
+button.status-btn.incomplete {
+  background-color: red;
+}
+
+button.status-btn:hover {
+  opacity: 0.8;
+}
+
+/* Modal Styling */
+.modal-content {
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.modal-header {
+  background-color: #5bc0de;
+  color: white;
+}
+
+.modal-footer button {
+  background-color: #5bc0de;
+  color: white;
+}
+
+.modal-body p {
+  font-size: 16px;
+}
+
+/* Form Control Styling */
+.form-control {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.form-control:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+/* Custom Title */
+h4 {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Card Hover Effect */
+.card {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* ToastContainer Styling */
+.Toastify__toast-container {
+  font-family: Arial, sans-serif;
+}
+
+.Toastify__toast {
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 14px;
+}

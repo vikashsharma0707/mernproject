@@ -1,0 +1,73 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-user-form, .add-category-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .add-user-form input, 
+  .add-user-form select, 
+  .add-category-form input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-user-form label {
+    font-weight: bold;
+  }
+  
+  .gender-options {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .submit-button, .add-category-button {
+    padding: 15px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .submit-button:hover, .add-category-button:hover {
+    background-color: #2980b9;
+  }
+  
+  @media (min-width: 768px) {
+    .add-user-form {
+      grid-template-columns: 1fr 1fr;
+      column-gap: 20px;
+    }
+  
+    .add-user-form input, 
+    .add-user-form select {
+      width: 100%;
+    }
+  
+    .submit-button {
+      grid-column: span 2;
+    }
+  }
+  

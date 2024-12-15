@@ -1,0 +1,76 @@
+/* UserDashboard.css */
+
+/* Navbar Styling */
+
+
+*{
+  list-style-type: none;
+}
+.navbar {
+  background-color: #DE3163;
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .data{
+    width: 1500px;
+  }
+  
+  .nav-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .welcome-text {
+    font-size: 20px;
+    margin: 0;
+  }
+
+.hello{
+    display: flex;
+    width: 150px;
+    /* border-radius: 50px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+     rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+  .email-text {
+    font-size: 14px;
+    margin: 5px 0 0;
+  }
+  
+  /* Content Section Styling */
+  .content {
+    padding: 20px;
+    height: 100%;
+  }
+  
+  .task-item {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+  }
+  
+  .nav-content{
+    text-align: center;
+    align-items: center;
+    margin-left: 40%;
+    display: flex;
+    
+  }
+
+  .data{
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    
+  }
